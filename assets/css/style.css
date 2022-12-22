@@ -1,0 +1,1580 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b8bb6;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0c041a;
+  color: white;
+  overflow-x:hidden!important;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  border: 0;
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* a, p{
+                                          font-size: 14px;
+                                      } */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+
+
+/* /// */
+
+.home-sec-1 {
+  padding: 100px 0 50px;
+}
+.real-text h1 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 80px;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1;
+  font-weight: 700;
+}
+.real-text p {
+  font-size: 40px;
+  text-align: center;
+  color: #44a1d1;
+  font-weight: 500;
+  margin: 15px 0 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+.real-text h3 {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  margin: 115px 0 50px;
+}
+
+.product-body img {
+  width: 100%;
+}
+.product-body h3 {
+  font-size: 34px;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  margin: 30px 0 15px;
+}
+.product-body p {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: "Source Sans 3", sans-serif;
+}
+.product-body a {
+  color: white;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  /* text-decoration: underline; */
+  font-family: "Source Sans 3", sans-serif;
+}
+.product-body {
+  border: 1px solid #3b8bb6;
+  border-radius: 10px;
+  padding: 25px;
+  width: 95%;
+  margin: 0 auto;
+  transition: .5s;
+}
+.product-body:hover {
+  background: #2c5e83;
+}
+.key-text h3 {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0 0 55px;
+}
+.home-sec-2 {
+  background-image: url("../images/Key-Feature-BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  background-position: center;
+  padding: 140px 0 0;
+}
+.key-box {
+  border: 1px solid #3b8bb6;
+  border-radius: 10px;
+  padding: 22px 13px;
+  transition: .5s;
+}
+
+.key-box:hover{
+  background-color: #3b8bb648;
+}
+
+.key-box img{
+  height: 110px;
+  object-fit: scale-down;
+}
+
+.key-box h3 {
+  font-size: 29px;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 26px 0 10px;
+}
+.key-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: "Source Sans 3", sans-serif;
+}
+.work-text h2 {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  margin: 50px 0 75px;
+}
+.home-sec-3 {
+  padding: 65px 0 0;
+}
+.work-img {
+
+  text-align: center;
+    display: flex;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-img img{
+  /* filter: grayscale(100%); */
+  transition: .5s;
+  cursor: pointer;
+}
+
+.work-img img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.15);
+
+}
+
+.team-text h3 {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+.team-text p {
+  font-size: 25px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Source Sans 3", sans-serif;
+  max-width: 67%;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.team-body {
+  border-radius: 10px;
+  padding: 22px 10px;
+  text-align: center;
+  transition: .5s;
+}
+.team-body h3 {
+  font-size: 26px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  margin: 20px 0 20px;
+}
+.team-body h6 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Source Sans 3", sans-serif;
+  color: #44a1d1;
+}
+.team-body p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Source Sans 3", sans-serif;
+  margin: 21px 0px 0;
+  font-weight: 500;
+}
+
+.home-sec-4 {
+  padding-top: 170px;
+}
+.home-sec-5 {
+  padding: 0 0 120px;
+}
+.team-body:hover {
+  background: #1a2b48;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.375);
+}
+
+.team-body img{
+  border-radius: 100%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.274);
+
+}
+
+
+.footer-sec {
+  background-image: url("../images/Footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0 20px;
+  background-position: center;
+}
+.footer-text img {
+  margin: 0 0 30px;
+}
+.footer-text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  font-family: "Source Sans 3", sans-serif;
+
+  color: white;
+}
+.footer-text li {
+  list-style: none;
+}
+.footer-text li a {
+  font-size: 16px;
+  color: white;
+  line-height: 33px;
+  font-weight: 500;
+}
+.footer-text li i {
+  margin-right: 5px;
+}
+a.them-btn {
+  display: inline-flex;
+  align-items: center;
+  width: 210px;
+  background: #4199d2;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 1px solid #4199d2;
+  margin: 30px 0 0;
+  font-weight: 500;
+  font-family: "Source Sans 3", sans-serif;
+  transition: .5s;
+}
+.footer-icons h3 {
+  font-size: 30px;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0 0 25px;
+}
+.footer-icons li {
+  display: inline-flex;
+}
+.footer-icons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: .5s;
+}
+.footer-sec hr {
+  margin-top: 90px;
+  border-top: 1px solid rgb(110 110 110 / 52%);
+}
+.copy-text p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #adadad;
+  font-family: "Source Sans 3", sans-serif;
+}
+a.them-btn:hover {
+  background: transparent;
+}
+.footer-icons li a:hover {
+  background-color: #4199d2;
+  color: #fff;
+}
+header {
+  padding: 30px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.header-btn a {
+  color: white;
+  font-size: 18px;
+  font-family: "Source Sans 3", sans-serif;
+
+  margin: 0 14px 0 0px;
+}
+.banner-sec {
+  background-image: url("../images/Header-BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom center;
+  min-height: 1480px;
+  padding: 12% 0 0;
+}
+
+.text-banner h1 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 85px;
+  width: 62%;
+  margin: 0 auto;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+.text-banner p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Source Sans 3", sans-serif;
+  max-width: 60%;
+  text-align: center;
+  margin: 12px auto 0px;
+  letter-spacing: 1px;
+}
+
+.global img{
+  position: absolute;
+}
+img.glob-1 {
+  position: absolute;
+  left: 17%;
+  top: 29%;
+}
+img.glob-2 {
+  position: absolute;
+  top: 40%;
+  right: 19%;
+}
+
+.glob-3 {
+  
+  top: 63%;
+    right: 9%;
+  width: 70px;
+}
+
+
+.glob-4 {
+  
+  top: 23%;
+    right: 10%;
+    width: 60px;
+}
+
+
+.glob-5 {
+  
+  top: 18%;
+  left: 10%;
+  width: 50px;
+
+}
+
+
+.glob-6 {
+  
+  bottom: 50%;
+    left: 25%;
+  width: 70px;
+}
+
+
+
+
+
+/* .glob-3 {
+  position: absolute;
+} */
+.glob-earth-3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 600px;
+  /* transform: scale(1.5); */
+}
+
+.element {
+  display: block;
+  position: absolute;
+}
+/* .element.ele-1 {
+     
+      right: 5%;
+      top: 25%;
+    }
+    .element.ele-2 {
+      left: 2%;
+      top: 15%;
+      
+    } */
+
+/* /// */
+
+.scrool-num ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.scrool-num ul li {
+  list-style: none;
+  height: 80px;
+  width: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:.5s;
+}
+
+
+.scrool-num ul li.active{
+    background-image:url('https://insitechstaging.com/demo/ensemble-2/wp/wp-content/uploads/2022/10/sss.png')!important;
+}
+
+
+.scrool-num ul li.active a{
+   color:#000;
+}
+
+.scrool-num ul li a {
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+  transition:.5s;
+}
+
+.scrool-num {
+  position: fixed;
+  top: 45%;
+  left: 5%;
+  z-index: 999;
+  opacity: 0;
+  transition: .3s;
+  transform: scale(.8);
+}
+
+
+
+.scrool-num.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.scrool-num.show ul li:nth-child(1){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-1.png);
+     display:none;
+}
+
+.scrool-num.show ul li:nth-child(2){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-2.png);
+     display:none;
+}
+
+.scrool-num.show ul li:nth-child(3){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-3.png);
+    /*display:none;*/
+}
+
+.scrool-num.show ul li:nth-child(4){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-4.png);
+}
+
+.scrool-num.show ul li:nth-child(5){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-4.png);
+}
+
+.scrool-num.show ul li:nth-child(6){
+    background-image: url(https://insitechstaging.com/demo/ensemble-2/wp/wp-content/themes/custom-theme/assets/images/btn-4.png);
+}
+
+.fixed {
+  position: fixed;
+  background-color: #0000009c;
+  padding: 8px 0;
+}
+
+#scroll-top {
+  display: flex;
+  background-color: #4199d2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 100%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+#scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+:root 
+{
+    --dark-color: rgb(0,0,0);
+    --glossy-red: rgba(238, 109, 17, 0.486);
+    --hidden-red:rgb(255, 102, 0);
+    --light-red: rgb(255, 102, 0);
+    --paths-theme: var(--very-light-red) var(--glossy-red);
+    --planets-theme: var(--light-red) var(--light-red) var(--light-red) var(--glossy-red); 
+    --very-light-red: rgb(255, 102, 0);
+}
+*, *::after, *::before
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+
+    margin: 0;
+}
+
+body #solar-system
+{
+    display: flex;
+
+    width: 450px;
+    height: 450px;
+    margin: auto;
+
+    -webkit-transform: skewX(-45deg);
+       -moz-transform: skewX(-45deg);
+        -ms-transform: skewX(-45deg);
+         -o-transform: skewX(-45deg);
+            transform: skewX(-45deg);
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+        -ms-transform-origin: center;
+         -o-transform-origin: center;
+            transform-origin: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* ⚠ size of the sun is not respected here */
+section #sun
+{
+  box-shadow: 0 0 120px 0px #ffe0a1;
+    position: fixed;
+    z-index: 100;
+    /* ✑ real radius of the sun: 696340km */
+
+    width: 450px; /* ✑ 40* too small compared to the #planets{} dimensions values */
+    height:450px;
+
+    -webkit-transform: skewX(45deg);
+       -moz-transform: skewX(45deg);
+        -ms-transform: skewX(45deg);
+         -o-transform: skewX(45deg);
+            transform: skewX(45deg);
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: var(--glossy-red);
+            background: linear-gradient(135deg, rgb(238 162 17) 20%, rgb(238 120 17 / 24%) 100%);
+
+    -webkit-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
+       -moz-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
+         -o-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
+        -ms-background: linear-gradient(135deg, var(--glossy-red) 20%, var(--hidden-red) 100%);
+            filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+    -webkit-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+       -moz-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+         -o-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+        -ms-filter: drop-shadow(0 0 2rem var(--glossy-red)) blur(1px);
+}
+
+/* planets */
+article #mercury
+{
+    position: fixed;
+    z-index: 99;
+    top: 38px;
+
+    display: flex;
+
+    width: 24.397px; /* ✑ real radius of mercury: 24397km */
+    height: 24.397px;
+    /* ✑ rotation period of mercury: 58.645 days */
+
+    -webkit-animation: planets-rotation 29.3225s linear infinite;
+       -moz-animation: planets-rotation 29.3225s linear infinite;
+        -ms-animation: planets-rotation 29.3225s linear infinite;
+         -o-animation: planets-rotation 29.3225s linear infinite;
+            animation: planets-rotation 29.3225s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--planets-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: var(--hidden-red);
+
+    justify-content: center;
+    align-items: center;
+}
+article #venus
+{
+    position: fixed;
+    z-index: 99;
+    top: 15px;
+
+    display: flex;
+
+    width: 60.518px; /* ✑ real radius of venus: 60518km */
+    height: 60.518px;
+    /* ✑ rotation period of venus 243.023 days */
+
+    -webkit-animation: planets-rotation 121.513s linear infinite;
+       -moz-animation: planets-rotation 121.513s linear infinite;
+        -ms-animation: planets-rotation 121.513s linear infinite;
+         -o-animation: planets-rotation 121.513s linear infinite;
+            animation: planets-rotation 121.513s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--planets-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: var(--hidden-red);
+
+    justify-content: center;
+    align-items: center;
+}
+article #earth
+{
+    position: fixed;
+    z-index: 99;
+    top: 35px;
+
+    display: flex;
+
+    width: 63.71px; /* ✑ real radius of the earth: 6371km */
+    height: 63.71px;
+    /* ✑ animation-duration: .5s = 24hours on earth */
+
+    -webkit-animation: planets-rotation .4874s linear infinite;
+       -moz-animation: planets-rotation .4874s linear infinite;
+        -ms-animation: planets-rotation .4874s linear infinite;
+         -o-animation: planets-rotation .4874s linear infinite;
+            animation: planets-rotation .4874s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--planets-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: var(--hidden-red);
+
+    justify-content: center;
+    align-items: center;
+}
+article #earth::after
+{
+    position: inherit;
+
+    width: 40%;
+    height: 40%;
+
+    content: '';
+    -webkit-animation: earth-blinking 2s linear infinite;
+       -moz-animation: earth-blinking 2s linear infinite;
+        -ms-animation: earth-blinking 2s linear infinite;
+         -o-animation: earth-blinking 2s linear infinite;
+            animation: earth-blinking 2s linear infinite;
+
+    -webkit-border-radius: inherit;
+       -moz-border-radius: inherit;
+            border-radius: inherit;
+    background: var(--glossy-red);
+
+    -webkit-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+       -moz-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+         -o-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+        -ms-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+            filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+}
+article #mars
+{
+    position: fixed;
+    z-index: 99;
+    top: 288px;
+
+    display: flex;
+
+    width: 33.895px; /* ✑ real radius of mars: 33895km */
+    height: 33.895px;
+    /* ✑ animation-duration: .5s = 24hours on earth */
+
+    -webkit-animation: planets-rotation .5128s linear infinite;
+       -moz-animation: planets-rotation .5128s linear infinite;
+        -ms-animation: planets-rotation .5128s linear infinite;
+         -o-animation: planets-rotation .5128s linear infinite;
+            animation: planets-rotation .5128s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--planets-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: var(--hidden-red);
+
+    justify-content: center;
+    align-items: center;
+}
+article #mars::after,
+article #venus::after,
+article #mercury::after
+{
+    width: 40%;
+    height: 40%;
+
+    content: '';
+
+    -webkit-border-radius: inherit;
+       -moz-border-radius: inherit;
+            border-radius: inherit;
+    background: var(--glossy-red);
+
+    -webkit-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+       -moz-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+         -o-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+        -ms-filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+            filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+}
+
+/* planets trajectory's
+⚠ the distances between the planets and the sun are not respected here because of the diameter ot it */
+section #mercury-trajectory
+{
+    position: fixed;
+    z-index: 98;
+
+    width: 400px; /* ✑ non-proportional */
+    height: 400px;
+    /* ✑ revolution of mercury: 87.969 days */
+
+    -webkit-animation: solar-revolution 43.9845s linear infinite;
+       -moz-animation: solar-revolution 43.9845s linear infinite;
+        -ms-animation: solar-revolution 43.9845s linear infinite;
+         -o-animation: solar-revolution 43.9845s linear infinite;
+            animation: solar-revolution 15.9845s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--paths-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+section #venus-trajectory
+{
+    position: fixed;
+    z-index: 98;
+
+    width: 257.085px; /* ✑ non-proportional */
+    height: 257.085px;
+    /* ✑ revolution of venus: 224.667 days */
+
+    -webkit-animation: solar-revolution 112.3335s linear infinite;
+       -moz-animation: solar-revolution 112.3335s linear infinite;
+        -ms-animation: solar-revolution 112.3335s linear infinite;
+         -o-animation: solar-revolution 112.3335s linear infinite;
+            animation: solar-revolution 112.3335s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--paths-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+section #earth-trajectory
+{
+    position: fixed;
+    z-index: 98;
+
+    width: 332.085px; /* ✑ non-proportional */
+    height: 332.085px;
+    /* ✑ revolution of the earth: 365.2422 days */
+
+    -webkit-animation: solar-revolution 182.6211s linear infinite;
+       -moz-animation: solar-revolution 182.6211s linear infinite;
+        -ms-animation: solar-revolution 182.6211s linear infinite;
+         -o-animation: solar-revolution 182.6211s linear infinite;
+            animation: solar-revolution 182.6211s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--paths-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+section #mars-trajectory
+{
+    position: fixed;
+    z-index: 98;
+
+    width: 446.085px; /* ✑ non-proportional */
+    height: 446.085px;
+    /* ✑ revolution of mars: 686.885 days */
+
+    -webkit-animation: solar-revolution 343.4425s linear infinite;
+       -moz-animation: solar-revolution 343.4425s linear infinite;
+        -ms-animation: solar-revolution 343.4425s linear infinite;
+         -o-animation: solar-revolution 343.4425s linear infinite;
+            animation: solar-revolution 343.4425s linear infinite;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--paths-theme);
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/*
+▀▄▀▄▀▄▀▄▀▄▀▄ ANIMATIONS ▀▄▀▄▀▄▀▄▀▄▀▄
+*/
+
+@keyframes solar-revolution
+{
+    to
+    {
+        transform: rotate(360deg) ;
+    }
+}
+
+@keyframes planets-rotation
+{
+    to
+    {
+        transform: rotate(360deg) ;
+    }
+}
+@keyframes earth-blinking
+{
+    from
+    {
+        background-color: var(--glossy-red);
+
+        filter: drop-shadow(0 0 .3rem var(--light-red)) blur(.5px);
+    }
+    to
+    {
+        background-color: var(--dark-color);
+
+        filter: drop-shadow(0 0 0 var(--light-red)) blur(0);
+    }
+}
+
+/* media queries
+smartphone*/
+.mobile-sun {
+    display:none;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    section #sun
+    {
+        width: 87.0425px;
+        height: 87.0425px;
+    }
+    section #mercury-trajectory
+    {
+        width: 101.5425px;
+        height: 101.5425px;
+    }
+    article #mercury
+    {
+        top: 17px;
+
+        width: 12.1985px;
+        height: 12.1985px;
+    }
+    section #venus-trajectory
+    {
+        width: 128.5425px;
+        height: 128.5425px;
+    }
+    article #venus
+    {
+        top: 6px;
+
+        width: 30.259px;
+        height: 30.259px;
+    }
+    section #earth-trajectory
+    {
+        width: 166.0425px;
+        height: 166.0425px;
+    }
+    article #earth
+    {
+        top: 16px;
+
+        width: 31.855px;
+        height: 31.855px;
+    }
+    section #mars-trajectory
+    {
+        width: 223.0425px;
+        height: 223.0425px;
+    }
+    article #mars
+    {
+        top: 56px;
+
+        width: 16.9475px;
+        height: 16.9475px;
+    }
+}
+
+/* 4K Ultra HD */
+@media only screen and (min-width: 1921px)
+{
+    section #sun
+    {
+        width: 348.17px;
+        height: 348.17px;
+    }
+    section #mercury-trajectory
+    {
+        width: 406.17px;
+        height: 406.17px;
+    }
+    article #mercury
+    {
+        top: 82px;
+
+        width: 48.794px; /* ✑ real diameter of mercury: 4879.4km*/
+        height: 48.794px;
+    }
+    section #venus-trajectory
+    {
+        width: 514.17px;
+        height: 514.17px;
+    }
+    article #venus
+    {
+        top: 28px;
+
+        width: 121.036px; /* ✑ real diameter of venus: 12103.6km */
+        height: 121.036px;
+    }
+    section #earth-trajectory
+    {
+        width: 664.17px;
+        height: 664.17px;
+    }
+    article #earth
+    {
+        top: 68px;
+
+        width: 127.42px; /* ✑ real diameter of the earth: 12742km */
+        height: 127.42px;
+    }
+    section #mars-trajectory
+    {
+        width: 892.14px;
+        height: 892.14px;
+    }
+    article #mars
+    {
+        top: 242px;
+
+        width: 67.79px; /* ✑ real diameter of mars: 6779km */
+        height: 67.79px;
+    }
+}
+/*
+8K Ultra HD ...(*￣０￣)ノ
+@media only screen and (min-width: 3841px) {}
+*/
+
+
+@media only screen and (min-width: 1600px){
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media only screen and (max-width: 1800px){
+  .scrool-num{
+    left: 2%;
+  }
+}
+
+@media only screen and (max-width: 1700px){
+  .scrool-num{
+    left: .5%;
+    transform: scale(.75);
+  }
+  
+  img.glob-2{
+    width: 8%;
+        right: 11%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1600px){
+    .text-banner h1{
+            font-size: 75px;
+    }
+    
+    .real-text h1{
+            font-size: 60px;
+    }
+    
+    .real-text p {
+    font-size: 30px;
+    }
+    
+    .home-sec-5 {
+    padding: 0 0 50px;
+}
+
+.home-sec-4 {
+    padding-top: 120px;
+}
+
+.work-text h2{
+        margin: 30px 0 55px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 1599px){
+      .product-body h3 {
+    font-size: 28px;
+    }
+    
+    .product-body p {
+    font-size: 15px;
+    }
+    
+    .product-body a{
+      font-size: 17px;  
+    }
+    
+    .key-box h3 {
+    font-size: 24px;
+    }
+    
+    .key-box p {
+    font-size: 13.7px;
+    }
+    
+    .work-img img:hover{
+            transform: scale(1.08);
+    }
+    
+    .team-body h3{
+        font-size:24px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1350px){
+  section #sun{
+          width: 350px;
+    height: 350px;
+  }
+
+body #solar-system{
+     width: 400px;
+    height: 400px;
+ }
+ 
+ section #mercury-trajectory{
+     width: 350px;
+    height: 350px;
+ }
+
+}
+
+@media only screen and (max-width: 1199px){
+.text-banner h1 {
+    font-size: 65px;
+        width: 80%;
+            margin-top: 50px;
+}
+
+.glob-earth-3{
+    transform: scale(0.7);
+}
+
+.banner-sec{
+        min-height: 1200px;
+}
+.glob-earth-3{
+       top: 450px; 
+}
+
+.real-text h1 {
+    font-size: 50px;
+}
+
+
+.real-text p {
+    font-size: 26px;
+}
+
+.real-text h3 {
+    font-size: 45px;
+}
+
+.product-body h3{
+        font-size: 30px;
+            width: 80%;
+}
+
+.product-body p {
+    font-size: 15px;
+}
+
+.product-body{
+        padding: 20px;
+}
+
+.product-body a{
+        font-size: 16px;
+}
+
+.key-box h3 {
+    font-size: 18px;
+
+}
+.key-box p{
+    font-size: 14px;
+        width: 88%;
+}
+
+.work-text h2,
+.team-text h3{
+    font-size: 45px;
+}
+
+.team-text p {
+    font-size: 22px;
+}
+
+.real-text p {
+    font-size: 24px;
+}
+
+
+}
+
+@media only screen and (max-width: 991px){
+    
+    .scrool-num.show{
+        display:none;
+    }
+    
+    .product-body p {
+    font-size: 14px;
+}
+
+.product-body h3 {
+    font-size: 24px;
+    width: 80%;
+}
+    
+    .product-body{
+            margin-bottom: 40px;
+    }
+    
+    
+    .home-sec-2{
+            padding: 50px 0 0;
+    }
+    
+   
+   .key-box h3 {
+    font-size: 20px;
+}
+   
+   
+   .key-box p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.key-box{
+     
+    margin-bottom: 40px;
+}
+
+
+.home-sec-2{
+        min-height: auto;
+}
+   .home-sec-3 {
+    padding: 50px 0 0;
+}
+
+
+.team-text p{
+        font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+}
+   
+   .home-sec-4 {
+    padding-top: 60px;
+}
+
+.work-text h2 {
+    margin: 10px 0 35px;
+}
+
+.key-text h3 {
+    font-size: 45px;
+}
+
+.real-text h1 {
+    font-size: 45px;
+    width: 100%;
+}
+
+
+.home-sec-1 {
+    padding: 120px 0 0px;
+}
+
+.real-text h3{
+       margin: 40px 0; 
+}
+
+.text-banner h1{
+        font-size: 58px;
+    width: 100%;
+}
+
+
+.text-banner p{
+        max-width: 100%;
+}
+
+
+   
+}
+@media only screen and (max-width: 767px){
+
+    
+.glob-earth-3 {
+    transform: scale(0.5);
+}
+
+
+.text-banner h1 {
+    font-size: 36px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        column-gap: 20px;
+}
+
+a.them-btn{
+       width: 150px; 
+       height: 38px;
+           width: 170px;
+}
+
+.header-btn a{
+        margin: 0;
+}
+
+.header-btn  a.them-btn{
+    font-size: 16px;
+}
+
+
+header{
+        text-align: center;
+            padding: 10px 0;
+}
+    .header-logo img{
+        max-width: 180px;
+    margin-bottom: 5px;
+    }
+    .banner-sec {
+    min-height: 1000px;
+}
+
+.glob-earth-3 {
+    top: 360px;
+}
+
+.real-text h1,
+.real-text h3,
+.key-text h3,
+.key-text h3,
+.work-text h2,
+.team-text h3,
+.footer-icons h3{
+    font-size: 28px;
+
+}
+
+.real-text p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.real-text h3 {
+    margin: 30px 0;
+}
+
+.product-body h3 {
+    font-size: 22px;
+    width: 100%;
+}
+
+.home-sec-2 {
+    padding: 30px 0 0;
+}
+
+.key-text h3{
+    margin: 0 0 35px;
+}
+
+.key-box h3 {
+    font-size: 22px;
+}
+
+.home-sec-3 {
+    padding: 20px 0 0;
+}
+
+.home-sec-4 {
+    padding-top: 20px;
+}
+
+.work-text h2 {
+    margin: 10px 0 0;
+}
+
+.team-text p {
+    font-size: 16px;
+
+}
+
+.team-body p{
+    margin-top:10px;
+}
+.team-body h3{
+    margin-bottom:10px;
+}
+
+.footer-sec{
+        padding: 40px 0 12px;
+            text-align: center;
+}
+
+.glob-earth-3 {
+    top: 420px;
+}
+
+.footer-text p {
+    font-size: 16px;
+    width: 180px;
+    margin: auto;
+        
+    }
+    
+    .footer-icons{
+        margin-top:40px;
+    }
+.footer-sec hr {
+    margin-top: 30px;
+}
+
+.footer-sec a.them-btn{
+    margin: 10px 0 0;
+}
+
+.copy-text p{
+        font-size: 16px;
+}
+.footer-sec hr {
+    margin-top: 20px;
+}
+
+
+    
+}
+
+
+
+@media only screen and (max-width: 525px){
+.text-banner h1{
+        margin-top: 100px;
+            font-size: 30px;
+}
+.text-banner p {
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.banner-sec {
+    min-height: 950px;
+}
+
+body #solar-system{
+   width: 300px;
+    height: 300px; 
+}
+.team-body img{
+        max-width: 80%;
+}
+
+img.glob-2,
+img.glob-2{
+  
+    width:60px!important;
+}
+
+.global img {
+   
+    width: 35px!important;
+}
+
+/*img.mobile-sun {*/
+/*    display:block;*/
+/*    width:auto!important;*/
+/*}*/
+
+/*section #sun{*/
+/*    display:none;*/
+/*}*/
+
+html{
+    overflow-x:hidden!important;
+}
+}
+.copy-text p a {color: #adadad;}
